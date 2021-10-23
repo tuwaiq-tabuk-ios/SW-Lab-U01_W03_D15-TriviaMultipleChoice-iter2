@@ -33,3 +33,7 @@ Sixth App that replicates the Trivia game where the users have to choose between
 
 ## Deadline 
 Sunday 24th October 9:15 am
+   
+   Create the first project TriviaMultipleChoice "NadaAbdullahALblawi"   
+   
+Simulator Screen Recording - iPhone 12 Pro - 2021-10-24 at 00.38.00.mp4
