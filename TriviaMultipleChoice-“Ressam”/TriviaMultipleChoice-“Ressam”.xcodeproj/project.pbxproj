@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660B69AD2723F38E00B6E3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660B69AC2723F38E00B6E3FA /* AppDelegate.swift */; };
+		660B69AF2723F38E00B6E3FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660B69AE2723F38E00B6E3FA /* SceneDelegate.swift */; };
+		660B69B12723F38E00B6E3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660B69B02723F38E00B6E3FA /* ViewController.swift */; };
+		660B69B42723F38E00B6E3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660B69B22723F38E00B6E3FA /* Main.storyboard */; };
+		660B69B62723F38F00B6E3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660B69B52723F38F00B6E3FA /* Assets.xcassets */; };
+		660B69B92723F38F00B6E3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660B69B72723F38F00B6E3FA /* LaunchScreen.storyboard */; };
+		660B69C22723FB4700B6E3FA /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660B69C12723FB4700B6E3FA /* Questions.swift */; };
+		660B69C42723FB6C00B6E3FA /* TriviaBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660B69C32723FB6C00B6E3FA /* TriviaBrain.swift */; };
+		660B69C6272409B300B6E3FA /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 660B69C5272409B300B6E3FA /* clap.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		660B69A92723F38E00B6E3FA /* TriviaMultipleChoice-“Ressam”.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TriviaMultipleChoice-“Ressam”.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660B69AC2723F38E00B6E3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		660B69AE2723F38E00B6E3FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		660B69B02723F38E00B6E3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		660B69B32723F38E00B6E3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660B69B52723F38F00B6E3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		660B69B82723F38F00B6E3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		660B69BA2723F38F00B6E3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660B69C12723FB4700B6E3FA /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		660B69C32723FB6C00B6E3FA /* TriviaBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaBrain.swift; sourceTree = "<group>"; };
+		660B69C5272409B300B6E3FA /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660B69A62723F38E00B6E3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660B69A02723F38E00B6E3FA = {
+			isa = PBXGroup;
+			children = (
+				660B69C5272409B300B6E3FA /* clap.wav */,
+				660B69AB2723F38E00B6E3FA /* TriviaMultipleChoice-“Ressam” */,
+				660B69AA2723F38E00B6E3FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660B69AA2723F38E00B6E3FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660B69A92723F38E00B6E3FA /* TriviaMultipleChoice-“Ressam”.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660B69AB2723F38E00B6E3FA /* TriviaMultipleChoice-“Ressam” */ = {
+			isa = PBXGroup;
+			children = (
+				660B69C02723FB1800B6E3FA /* Model */,
+				660B69AC2723F38E00B6E3FA /* AppDelegate.swift */,
+				660B69AE2723F38E00B6E3FA /* SceneDelegate.swift */,
+				660B69B02723F38E00B6E3FA /* ViewController.swift */,
+				660B69B22723F38E00B6E3FA /* Main.storyboard */,
+				660B69B52723F38F00B6E3FA /* Assets.xcassets */,
+				660B69B72723F38F00B6E3FA /* LaunchScreen.storyboard */,
+				660B69BA2723F38F00B6E3FA /* Info.plist */,
+			);
+			path = "TriviaMultipleChoice-“Ressam”";
+			sourceTree = "<group>";
+		};
+		660B69C02723FB1800B6E3FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				660B69C12723FB4700B6E3FA /* Questions.swift */,
+				660B69C32723FB6C00B6E3FA /* TriviaBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660B69A82723F38E00B6E3FA /* TriviaMultipleChoice-“Ressam” */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660B69BD2723F38F00B6E3FA /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-“Ressam”" */;
+			buildPhases = (
+				660B69A52723F38E00B6E3FA /* Sources */,
+				660B69A62723F38E00B6E3FA /* Frameworks */,
+				660B69A72723F38E00B6E3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TriviaMultipleChoice-“Ressam”";
+			productName = "TriviaMultipleChoice-“Ressam”";
+			productReference = 660B69A92723F38E00B6E3FA /* TriviaMultipleChoice-“Ressam”.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660B69A12723F38E00B6E3FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					660B69A82723F38E00B6E3FA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 660B69A42723F38E00B6E3FA /* Build configuration list for PBXProject "TriviaMultipleChoice-“Ressam”" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660B69A02723F38E00B6E3FA;
+			productRefGroup = 660B69AA2723F38E00B6E3FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660B69A82723F38E00B6E3FA /* TriviaMultipleChoice-“Ressam” */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660B69A72723F38E00B6E3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660B69C6272409B300B6E3FA /* clap.wav in Resources */,
+				660B69B92723F38F00B6E3FA /* LaunchScreen.storyboard in Resources */,
+				660B69B62723F38F00B6E3FA /* Assets.xcassets in Resources */,
+				660B69B42723F38E00B6E3FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660B69A52723F38E00B6E3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660B69C42723FB6C00B6E3FA /* TriviaBrain.swift in Sources */,
+				660B69B12723F38E00B6E3FA /* ViewController.swift in Sources */,
+				660B69C22723FB4700B6E3FA /* Questions.swift in Sources */,
+				660B69AD2723F38E00B6E3FA /* AppDelegate.swift in Sources */,
+				660B69AF2723F38E00B6E3FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		660B69B22723F38E00B6E3FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660B69B32723F38E00B6E3FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		660B69B72723F38F00B6E3FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660B69B82723F38F00B6E3FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660B69BB2723F38F00B6E3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		660B69BC2723F38F00B6E3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660B69BE2723F38F00B6E3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRVR22ZQ43;
+				INFOPLIST_FILE = "TriviaMultipleChoice-“Ressam”/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.resam.TriviaMultipleChoice--Ressam-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660B69BF2723F38F00B6E3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRVR22ZQ43;
+				INFOPLIST_FILE = "TriviaMultipleChoice-“Ressam”/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.resam.TriviaMultipleChoice--Ressam-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660B69A42723F38E00B6E3FA /* Build configuration list for PBXProject "TriviaMultipleChoice-“Ressam”" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660B69BB2723F38F00B6E3FA /* Debug */,
+				660B69BC2723F38F00B6E3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660B69BD2723F38F00B6E3FA /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-“Ressam”" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660B69BE2723F38F00B6E3FA /* Debug */,
+				660B69BF2723F38F00B6E3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660B69A12723F38E00B6E3FA /* Project object */;
+}
