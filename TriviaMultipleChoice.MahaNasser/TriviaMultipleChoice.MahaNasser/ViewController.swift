@@ -93,7 +93,7 @@ class ViewController: UIViewController {
     }
     
     
-    func updateScreen () {
+    @objc func updateScreen () {
         
         progressBar.progress = quiz.getTheProgress ()
         
