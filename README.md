@@ -30,6 +30,8 @@ Sixth App that replicates the Trivia game where the users have to choose between
 1. Create the sixth Bootcamp App. 
 2. The TriviaMultipleChoice App has the same behavior as the TriviaSingleChoice App, but instead of the user giving a positive or negative response, they will have to choose between 4 responses.
 3. Present the Layout and add components
+4. ![Simulator Screen Shot - iPhone 12 - 2021-10-23 at 21 17 55](https://user-images.githubusercontent.com/91871856/138567302-24b9c06d-7ae0-434e-a4ae-a865c434de81.png)
+
 
 ## Deadline 
 Sunday 24th October 9:15 am
