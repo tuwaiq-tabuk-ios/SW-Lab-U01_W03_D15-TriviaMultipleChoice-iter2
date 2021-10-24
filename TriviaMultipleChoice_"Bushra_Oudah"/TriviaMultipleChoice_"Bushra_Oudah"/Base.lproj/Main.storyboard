@@ -22,32 +22,23 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQl-Gu-gcP" userLabel="Score_View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="j8S-iB-DFX">
-                                                <rect key="frame" x="30" y="0.0" width="354" height="60"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9o-Qp-eoM" userLabel="Value_Score_Label">
-                                                        <rect key="frame" x="0.0" y="0.0" width="167" height="60"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4A5-Tn-GkT" userLabel="Score">
-                                                        <rect key="frame" x="187" y="0.0" width="167" height="60"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="ZUO-po-Dts"/>
-                                                </constraints>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4A5-Tn-GkT" userLabel="Score">
+                                                <rect key="frame" x="356" y="8" width="58" height="52"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9o-Qp-eoM" userLabel="Value_Score_Label">
+                                                <rect key="frame" x="300" y="8" width="56" height="52"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <constraints>
-                                            <constraint firstItem="j8S-iB-DFX" firstAttribute="top" secondItem="OQl-Gu-gcP" secondAttribute="top" id="8kN-E0-Ouc"/>
-                                            <constraint firstAttribute="trailing" secondItem="j8S-iB-DFX" secondAttribute="trailing" constant="30" id="F35-n6-YF2"/>
-                                            <constraint firstAttribute="bottom" secondItem="j8S-iB-DFX" secondAttribute="bottom" id="NkT-2r-VOS"/>
-                                            <constraint firstItem="j8S-iB-DFX" firstAttribute="leading" secondItem="OQl-Gu-gcP" secondAttribute="leading" constant="30" id="W0m-iV-5P6"/>
+                                            <constraint firstAttribute="trailing" secondItem="4A5-Tn-GkT" secondAttribute="trailing" id="42q-FH-SWK"/>
+                                            <constraint firstItem="4A5-Tn-GkT" firstAttribute="leading" secondItem="C9o-Qp-eoM" secondAttribute="trailing" id="Xcm-ys-3xM"/>
+                                            <constraint firstItem="C9o-Qp-eoM" firstAttribute="leading" secondItem="OQl-Gu-gcP" secondAttribute="leading" constant="300" id="c99-US-suG"/>
                                             <constraint firstAttribute="height" constant="60" id="l8L-xU-mFy"/>
                                         </constraints>
                                     </view>
@@ -161,10 +152,9 @@
                         <outlet property="ChoiceOne" destination="evY-pg-hpI" id="3Vc-am-Wpr"/>
                         <outlet property="ChoiceThree" destination="hYI-bI-1QE" id="Sme-QS-LRk"/>
                         <outlet property="ChoiceTow" destination="Yzz-Sp-T5q" id="Q5a-xT-jh8"/>
-                        <outlet property="QuestionLabel" destination="E0q-Sc-C03" id="Qqo-dD-MRK"/>
-                        <outlet property="Score" destination="4A5-Tn-GkT" id="C74-7D-Sh3"/>
-                        <outlet property="ValueScoreLabel" destination="C9o-Qp-eoM" id="0Ov-Su-TwX"/>
                         <outlet property="progressView" destination="vax-Lb-mCB" id="B3w-v4-y5P"/>
+                        <outlet property="questionLabel" destination="E0q-Sc-C03" id="Qqo-dD-MRK"/>
+                        <outlet property="valueScoreLabel" destination="4A5-Tn-GkT" id="ksq-pJ-yCT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

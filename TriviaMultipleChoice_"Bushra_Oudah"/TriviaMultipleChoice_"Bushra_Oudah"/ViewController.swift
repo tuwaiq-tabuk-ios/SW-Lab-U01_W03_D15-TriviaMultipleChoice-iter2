@@ -11,9 +11,8 @@ class ViewController: UIViewController {
   
   
   
-  @IBOutlet weak var Score: UILabel!
-  @IBOutlet weak var ValueScoreLabel: UILabel!
-  @IBOutlet weak var QuestionLabel: UILabel!
+  @IBOutlet weak var valueScoreLabel: UILabel!
+  @IBOutlet weak var questionLabel: UILabel!
   @IBOutlet weak var ChoiceOne: UIButton!
   @IBOutlet weak var ChoiceTow: UIButton!
   @IBOutlet weak var ChoiceThree: UIButton!
@@ -65,7 +64,7 @@ class ViewController: UIViewController {
     ChoiceFour.titleLabel?.adjustsFontSizeToFitWidth = true
     ChoiceFour.titleLabel?.minimumScaleFactor = 0.5
     
-    
+    valueScoreLabel.text = "\(quastionManger.checkScore())"
     updateUI()
     progressView.progress = 0.0
   }
@@ -97,12 +96,17 @@ class ViewController: UIViewController {
 }
     
   
+  func startGame(action : UIAlertAction! = nil) {
+    print(#function)
+    startGame ()
+    updateUI()
+  }
   
   @objc func updateUI(){
               
-    QuestionLabel.text = quastionManger.checkQuestion()
+    questionLabel.text = quastionManger.checkQuestion()
     progressView.progress = quastionManger.checkProgress()
-    Score.text = "\(quastionManger.checkScore())"
+    valueScoreLabel.text = "\(quastionManger.checkScore())"
    
     
     ChoiceOne.backgroundColor = UIColor.clear
@@ -116,13 +120,6 @@ class ViewController: UIViewController {
     ChoiceThree.setTitle(quastionManger.checkChoices()[2], for: .normal)
     ChoiceFour.setTitle(quastionManger.checkChoices()[3], for: .normal)
     
-  }
-  
-  
-  func startGame(action : UIAlertAction! = nil) {
-    print(#function)
-    startGame ()
-    updateUI()
   }
   
   
@@ -153,6 +150,7 @@ class ViewController: UIViewController {
                   style: .default,
                   handler: { action in
       print("Yes clicked")
+                    self.start()
     }))
     
     ac.addAction(UIAlertAction(title: "No",
@@ -186,11 +184,10 @@ class ViewController: UIViewController {
       }
     }
     
-    func start() {
-      quastionManger.start()
-      updateUI()
-    }
-  
+  func start() {
+     quastionManger.start()
+     updateUI()
+    }  
   }
   
 
