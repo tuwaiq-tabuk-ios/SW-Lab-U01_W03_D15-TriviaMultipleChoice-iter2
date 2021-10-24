@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2800DEAE2722F89100E9DBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800DEAD2722F89100E9DBE8 /* AppDelegate.swift */; };
-		2800DEB02722F89100E9DBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800DEAF2722F89100E9DBE8 /* SceneDelegate.swift */; };
-		2800DEB22722F89100E9DBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800DEB12722F89100E9DBE8 /* ViewController.swift */; };
-		2800DEB52722F89100E9DBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2800DEB32722F89100E9DBE8 /* Main.storyboard */; };
-		2800DEB72722F89300E9DBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2800DEB62722F89300E9DBE8 /* Assets.xcassets */; };
-		2800DEBA2722F89300E9DBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2800DEB82722F89300E9DBE8 /* LaunchScreen.storyboard */; };
-		2800DEC62723425900E9DBE8 /* myViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800DEC52723425900E9DBE8 /* myViewController.swift */; };
+		288201CE272591F4000951AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288201CD272591F4000951AF /* AppDelegate.swift */; };
+		288201D0272591F4000951AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288201CF272591F4000951AF /* SceneDelegate.swift */; };
+		288201D2272591F4000951AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288201D1272591F4000951AF /* ViewController.swift */; };
+		288201D5272591F4000951AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288201D3272591F4000951AF /* Main.storyboard */; };
+		288201D7272591F6000951AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288201D6272591F6000951AF /* Assets.xcassets */; };
+		288201DA272591F6000951AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288201D8272591F6000951AF /* LaunchScreen.storyboard */; };
+		288201E227259447000951AF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288201E127259446000951AF /* Question.swift */; };
+		288201E427259490000951AF /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288201E327259490000951AF /* QuestionBank.swift */; };
+		288201E827259DF5000951AF /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 288201E727259DF5000951AF /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2800DEAA2722F89100E9DBE8 /* TriviaMultiplleChoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaMultiplleChoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2800DEAD2722F89100E9DBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2800DEAF2722F89100E9DBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2800DEB12722F89100E9DBE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2800DEB42722F89100E9DBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2800DEB62722F89300E9DBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2800DEB92722F89300E9DBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2800DEBB2722F89300E9DBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2800DEC52723425900E9DBE8 /* myViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViewController.swift; sourceTree = "<group>"; };
+		288201CA272591F4000951AF /* TriviaMultipleChoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaMultipleChoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288201CD272591F4000951AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		288201CF272591F4000951AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		288201D1272591F4000951AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		288201D4272591F4000951AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		288201D6272591F6000951AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288201D9272591F6000951AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		288201DB272591F6000951AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288201E127259446000951AF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		288201E327259490000951AF /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		288201E727259DF5000951AF /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2800DEA72722F89100E9DBE8 /* Frameworks */ = {
+		288201C7272591F4000951AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,72 +43,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2800DEA12722F89100E9DBE8 = {
+		288201C1272591F4000951AF = {
 			isa = PBXGroup;
 			children = (
-				2800DEAC2722F89100E9DBE8 /* quizAppInIos */,
-				2800DEAB2722F89100E9DBE8 /* Products */,
+				288201CC272591F4000951AF /* TriviaMultipleChoice */,
+				288201CB272591F4000951AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2800DEAB2722F89100E9DBE8 /* Products */ = {
+		288201CB272591F4000951AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2800DEAA2722F89100E9DBE8 /* TriviaMultiplleChoice.app */,
+				288201CA272591F4000951AF /* TriviaMultipleChoice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2800DEAC2722F89100E9DBE8 /* quizAppInIos */ = {
+		288201CC272591F4000951AF /* TriviaMultipleChoice */ = {
 			isa = PBXGroup;
 			children = (
-				2800DEAD2722F89100E9DBE8 /* AppDelegate.swift */,
-				2800DEAF2722F89100E9DBE8 /* SceneDelegate.swift */,
-				2800DEB12722F89100E9DBE8 /* ViewController.swift */,
-				2800DEC52723425900E9DBE8 /* myViewController.swift */,
-				2800DEB32722F89100E9DBE8 /* Main.storyboard */,
-				2800DEB62722F89300E9DBE8 /* Assets.xcassets */,
-				2800DEB82722F89300E9DBE8 /* LaunchScreen.storyboard */,
-				2800DEBB2722F89300E9DBE8 /* Info.plist */,
+				288201E727259DF5000951AF /* clap.wav */,
+				288201CD272591F4000951AF /* AppDelegate.swift */,
+				288201CF272591F4000951AF /* SceneDelegate.swift */,
+				288201D1272591F4000951AF /* ViewController.swift */,
+				288201E127259446000951AF /* Question.swift */,
+				288201E327259490000951AF /* QuestionBank.swift */,
+				288201D3272591F4000951AF /* Main.storyboard */,
+				288201D6272591F6000951AF /* Assets.xcassets */,
+				288201D8272591F6000951AF /* LaunchScreen.storyboard */,
+				288201DB272591F6000951AF /* Info.plist */,
 			);
-			path = quizAppInIos;
+			path = TriviaMultipleChoice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2800DEA92722F89100E9DBE8 /* TriviaMultiplleChoice */ = {
+		288201C9272591F4000951AF /* TriviaMultipleChoice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2800DEBE2722F89300E9DBE8 /* Build configuration list for PBXNativeTarget "TriviaMultiplleChoice" */;
+			buildConfigurationList = 288201DE272591F6000951AF /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice" */;
 			buildPhases = (
-				2800DEA62722F89100E9DBE8 /* Sources */,
-				2800DEA72722F89100E9DBE8 /* Frameworks */,
-				2800DEA82722F89100E9DBE8 /* Resources */,
+				288201C6272591F4000951AF /* Sources */,
+				288201C7272591F4000951AF /* Frameworks */,
+				288201C8272591F4000951AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TriviaMultiplleChoice;
-			productName = quizAppInIos;
-			productReference = 2800DEAA2722F89100E9DBE8 /* TriviaMultiplleChoice.app */;
+			name = TriviaMultipleChoice;
+			productName = TriviaMultipleChoice;
+			productReference = 288201CA272591F4000951AF /* TriviaMultipleChoice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2800DEA22722F89100E9DBE8 /* Project object */ = {
+		288201C2272591F4000951AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					2800DEA92722F89100E9DBE8 = {
+					288201C9272591F4000951AF = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 2800DEA52722F89100E9DBE8 /* Build configuration list for PBXProject "quizAppInIos" */;
+			buildConfigurationList = 288201C5272591F4000951AF /* Build configuration list for PBXProject "TriviaMultipleChoice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,56 +118,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 2800DEA12722F89100E9DBE8;
-			productRefGroup = 2800DEAB2722F89100E9DBE8 /* Products */;
+			mainGroup = 288201C1272591F4000951AF;
+			productRefGroup = 288201CB272591F4000951AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2800DEA92722F89100E9DBE8 /* TriviaMultiplleChoice */,
+				288201C9272591F4000951AF /* TriviaMultipleChoice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2800DEA82722F89100E9DBE8 /* Resources */ = {
+		288201C8272591F4000951AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2800DEBA2722F89300E9DBE8 /* LaunchScreen.storyboard in Resources */,
-				2800DEB72722F89300E9DBE8 /* Assets.xcassets in Resources */,
-				2800DEB52722F89100E9DBE8 /* Main.storyboard in Resources */,
+				288201E827259DF5000951AF /* clap.wav in Resources */,
+				288201DA272591F6000951AF /* LaunchScreen.storyboard in Resources */,
+				288201D7272591F6000951AF /* Assets.xcassets in Resources */,
+				288201D5272591F4000951AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2800DEA62722F89100E9DBE8 /* Sources */ = {
+		288201C6272591F4000951AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2800DEB22722F89100E9DBE8 /* ViewController.swift in Sources */,
-				2800DEAE2722F89100E9DBE8 /* AppDelegate.swift in Sources */,
-				2800DEC62723425900E9DBE8 /* myViewController.swift in Sources */,
-				2800DEB02722F89100E9DBE8 /* SceneDelegate.swift in Sources */,
+				288201D2272591F4000951AF /* ViewController.swift in Sources */,
+				288201E227259447000951AF /* Question.swift in Sources */,
+				288201CE272591F4000951AF /* AppDelegate.swift in Sources */,
+				288201E427259490000951AF /* QuestionBank.swift in Sources */,
+				288201D0272591F4000951AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2800DEB32722F89100E9DBE8 /* Main.storyboard */ = {
+		288201D3272591F4000951AF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2800DEB42722F89100E9DBE8 /* Base */,
+				288201D4272591F4000951AF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2800DEB82722F89300E9DBE8 /* LaunchScreen.storyboard */ = {
+		288201D8272591F6000951AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2800DEB92722F89300E9DBE8 /* Base */,
+				288201D9272591F6000951AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2800DEBC2722F89300E9DBE8 /* Debug */ = {
+		288201DC272591F6000951AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		2800DEBD2722F89300E9DBE8 /* Release */ = {
+		288201DD272591F6000951AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,40 +293,38 @@
 			};
 			name = Release;
 		};
-		2800DEBF2722F89300E9DBE8 /* Debug */ = {
+		288201DF272591F6000951AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X962KR4KLP;
-				INFOPLIST_FILE = quizAppInIos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				INFOPLIST_FILE = TriviaMultipleChoice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = azooz.quizAppInIos;
+				PRODUCT_BUNDLE_IDENTIFIER = azooz.TriviaMultipleChoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2800DEC02722F89300E9DBE8 /* Release */ = {
+		288201E0272591F6000951AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X962KR4KLP;
-				INFOPLIST_FILE = quizAppInIos/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				INFOPLIST_FILE = TriviaMultipleChoice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = azooz.quizAppInIos;
+				PRODUCT_BUNDLE_IDENTIFIER = azooz.TriviaMultipleChoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2800DEA52722F89100E9DBE8 /* Build configuration list for PBXProject "quizAppInIos" */ = {
+		288201C5272591F4000951AF /* Build configuration list for PBXProject "TriviaMultipleChoice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2800DEBC2722F89300E9DBE8 /* Debug */,
-				2800DEBD2722F89300E9DBE8 /* Release */,
+				288201DC272591F6000951AF /* Debug */,
+				288201DD272591F6000951AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2800DEBE2722F89300E9DBE8 /* Build configuration list for PBXNativeTarget "TriviaMultiplleChoice" */ = {
+		288201DE272591F6000951AF /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2800DEBF2722F89300E9DBE8 /* Debug */,
-				2800DEC02722F89300E9DBE8 /* Release */,
+				288201DF272591F6000951AF /* Debug */,
+				288201E0272591F6000951AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2800DEA22722F89100E9DBE8 /* Project object */;
+	rootObject = 288201C2272591F4000951AF /* Project object */;
 }
