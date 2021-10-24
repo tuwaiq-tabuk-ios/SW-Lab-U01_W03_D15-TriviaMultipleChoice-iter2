@@ -26,6 +26,10 @@ Sixth App that replicates the Trivia game where the users have to choose between
    - Padding or insets of the text respect to the 4 borders of the button
 16. Ternary Conditional Operator
 
+
+
+
+
 ## Description
 1. Create the sixth Bootcamp App. 
 2. The TriviaMultipleChoice App has the same behavior as the TriviaSingleChoice App, but instead of the user giving a positive or negative response, they will have to choose between 4 responses.
@@ -33,3 +37,5 @@ Sixth App that replicates the Trivia game where the users have to choose between
 
 ## Deadline 
 Sunday 24th October 9:15 am
+## video.
+https://user-images.githubusercontent.com/91871990/138596898-8d60371c-b3e7-41f1-8cbb-470241c6d0f1.mp4
