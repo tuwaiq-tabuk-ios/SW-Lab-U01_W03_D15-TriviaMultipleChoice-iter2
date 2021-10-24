@@ -85,7 +85,11 @@ struct QuizManager {
        return true
      }
      else{
+      questionNumber = 0
+      score = 0
        return false
      }
+    //
+    //
    }
 }
