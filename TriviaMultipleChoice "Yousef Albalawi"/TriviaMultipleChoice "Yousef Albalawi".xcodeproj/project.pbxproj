@@ -16,6 +16,7 @@
 		CA1DB38427248EE700088C47 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1DB38327248EE700088C47 /* QuestionBank.swift */; };
 		CA1DB38627248F1500088C47 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1DB38527248F1500088C47 /* Question.swift */; };
 		CA1DB38A2724AC3C00088C47 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA1DB3892724AC3C00088C47 /* clap.wav */; };
+		CAC364F52725FF490030E39F /* fail.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAC364F42725FF490030E39F /* fail.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CA1DB38327248EE700088C47 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		CA1DB38527248F1500088C47 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CA1DB3892724AC3C00088C47 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		CAC364F42725FF490030E39F /* fail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fail.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		CA1DB36E2724707900088C47 /* TriviaMultipleChoice "Yousef Albalawi" */ = {
 			isa = PBXGroup;
 			children = (
+				CAC364F42725FF490030E39F /* fail.wav */,
 				CA1DB3892724AC3C00088C47 /* clap.wav */,
 				CA1DB36F2724707900088C47 /* AppDelegate.swift */,
 				CA1DB3712724707900088C47 /* SceneDelegate.swift */,
@@ -135,6 +138,7 @@
 			files = (
 				CA1DB38A2724AC3C00088C47 /* clap.wav in Resources */,
 				CA1DB37C2724707A00088C47 /* LaunchScreen.storyboard in Resources */,
+				CAC364F52725FF490030E39F /* fail.wav in Resources */,
 				CA1DB3792724707A00088C47 /* Assets.xcassets in Resources */,
 				CA1DB3772724707900088C47 /* Main.storyboard in Resources */,
 			);

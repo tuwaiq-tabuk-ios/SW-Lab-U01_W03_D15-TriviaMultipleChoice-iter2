@@ -12,19 +12,19 @@ struct QuizManager {
     
     
     
-    Question(question: "Which continent is the larges?",
+    Question(question: "Which continent is the larges ?",
              choices: ["Asia", "Europe", "America", "Africa"],
              answer: "Asia"),
-    Question(question: "What is the capital of New Zealand? ",
+    Question(question: "What is the capital of New Zealand ? ",
              choices: ["Washington","London","Riyadh","Wellington"],
              answer: "Wellington"),
-    Question(question: "Who is the hero of Game of Thrones? ",
+    Question(question: "Who is the hero of Game of Thrones ? ",
              choices: ["Arya", "Jon Snow","Mother of Dragons", "Joffrey"],
              answer: "Jon Snow"),
-    Question(question: "What is the first international Saudi club? ?",
+    Question(question: "What is the first international Saudi club ? ",
              choices: ["Alnaser", "Alhlal","Alahli","Alathhad"],
              answer: "Alnaser"),
-    Question(question: "Who is the current crown prince of Saudi Arabia? ?",
+    Question(question: "Who is the current crown prince of Saudi Arabia ? ",
              choices: ["Mohammed bin Salman", "Khalid Al-Faisal", "AbdulRahman bin Musaed", "Badr bin Abdul Mohsen"],
              answer: "Mohammed bin Salman")]
   
@@ -39,12 +39,12 @@ struct QuizManager {
     print(userAnswer)
     print(quiz[questionNumber].answer)
     if userAnswer == quiz[questionNumber].answer{
-      score += 15
+      score += 5
       return true
     }
     
     
-    score -= 15
+    score -= 10
     return false
     
     
@@ -80,13 +80,13 @@ struct QuizManager {
       return true
     }
     else{
-      return false
-    }
-  }
-  
-  
-  mutating func start() {
+     
+    
     questionNumber = 0
     score = 0
+    return false
   }
+//
+  //
+}
 }

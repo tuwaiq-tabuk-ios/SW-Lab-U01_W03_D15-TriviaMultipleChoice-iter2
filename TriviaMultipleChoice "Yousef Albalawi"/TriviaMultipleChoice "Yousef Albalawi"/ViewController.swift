@@ -37,15 +37,15 @@ class ViewController: UIViewController {
   var questionNumber:Int = 0
   
   
-  var score = 0
+  var score:Float = 0.0
   
   
   var player: AVAudioPlayer?
   
   
   var nextQuestion:Int = 0
-  
-  
+
+
   override func viewDidLoad() {
     
     
@@ -91,11 +91,11 @@ class ViewController: UIViewController {
     
     if check{
       
-      
+      score += 5
       sender.backgroundColor = UIColor.green
     }
     else {
-      
+      score -= 10
       
       sender.backgroundColor = UIColor.red
     }
@@ -109,6 +109,7 @@ class ViewController: UIViewController {
       
     }
     else {
+      hasUserGoodScore()
       showAlertView()
     }
   }
@@ -152,14 +153,19 @@ class ViewController: UIViewController {
     
     alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
     present(alert, animated: true, completion: nil)
-    playSound()
+    
   }
   
+  func hasUserGoodScore() {
+    let percentOfScore = (5 * Float(quiz.quiz.count)) * 0.7
+    score > percentOfScore ? playSound("clap") : playSound("fail")
+
+  }
   
-  func playSound() {
+  func playSound(_ name:String) {
     
     
-    guard let url = Bundle.main.url(forResource: "clap", withExtension: "wav") else { return }
+    guard let url = Bundle.main.url(forResource: name, withExtension: "wav") else { return }
     
     
     do {
@@ -187,7 +193,7 @@ class ViewController: UIViewController {
   
   
   func start() {
-    quiz.start()
+    score = 0
     updateUI()
   }
   
