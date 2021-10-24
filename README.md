@@ -31,5 +31,10 @@ Sixth App that replicates the Trivia game where the users have to choose between
 2. The TriviaMultipleChoice App has the same behavior as the TriviaSingleChoice App, but instead of the user giving a positive or negative response, they will have to choose between 4 responses.
 3. Present the Layout and add components
 
+#Here simulator screen recording how to work the app :
+
+
+https://user-images.githubusercontent.com/85816257/138574815-9889986d-d5ef-4266-8c72-7090578c4210.mp4
+
 ## Deadline 
 Sunday 24th October 9:15 am
