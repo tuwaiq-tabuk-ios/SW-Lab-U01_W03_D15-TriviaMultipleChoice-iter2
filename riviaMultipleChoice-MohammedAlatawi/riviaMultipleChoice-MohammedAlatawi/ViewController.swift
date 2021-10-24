@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import AVFoundation
 class ViewController: UIViewController {
     
     @IBOutlet weak var valueScoreLabel: UILabel!
@@ -18,10 +18,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var progressBar: UIProgressView!
     
     
+    
     @IBOutlet weak var optionFirstButton: UIButton!
     @IBOutlet weak var optionSecondButton: UIButton!
     @IBOutlet weak var optionThirdButton: UIButton!
     @IBOutlet weak var optionFourthButton: UIButton!
+    
+    var player: AVAudioPlayer?
     
     var Score:Int = 0
     
@@ -52,12 +55,18 @@ class ViewController: UIViewController {
             sender.backgroundColor = UIColor.red
             
         }
-
-        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updatwUi), userInfo: nil, repeats: false)
         questionNumber1 += 1
+        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updatwUi), userInfo: nil, repeats: false)
+        
+        
+            
+    
+        
+        
     }
     
     @objc func updatwUi() {
+        if questionNumber1 < questionBank.questions.count{
         questionBank.nextQuestionIndx()
         questionLabel.text = questionBank.getQuestion()
         optionFirstButton.setTitle(questionBank.getAnswers(Index: 0), for: .normal)
@@ -72,22 +81,58 @@ class ViewController: UIViewController {
         optionSecondButton.backgroundColor = UIColor.white
         optionThirdButton.backgroundColor = UIColor.white
         optionFourthButton.backgroundColor = UIColor.white
+        }else{
+            showAlert()
+        }
+       
+    }
+    
+    
+    func showAlert() {
+        let alert = UIAlertController(title: "End game ",
+                                      message: "play agin ?",
+                                      preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Yes", style: .cancel,
+                                      handler: { action in
+                                        self.start()                                      }))
+        
+        alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+        playSound()
+   
         
         
     }
     
-    /* func updateInterFace(){
-     valueScoreLabel.text = ("Scor \(Score)")
-     questionNumber.text = "\(questionNumber1 += 1) / \(questionBank.questions.count)"
-     
-     progressBar.progress = Float(Float(questionNumber1 + 1) / Float(questionBank.questions.count))*/
     
     
     
-    func reStart() {
+    func playSound() {
+        guard let url = Bundle.main.url(forResource: "clap", withExtension: "wav") else { return }
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+            
+            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
+            
+            guard let player = player else { return }
+            
+            player.play()
+            
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        
+        
+    }
+    
+    func start() {
         Score = 0
         questionNumber1 = 0
         updatwUi()
     }
 }
+
 

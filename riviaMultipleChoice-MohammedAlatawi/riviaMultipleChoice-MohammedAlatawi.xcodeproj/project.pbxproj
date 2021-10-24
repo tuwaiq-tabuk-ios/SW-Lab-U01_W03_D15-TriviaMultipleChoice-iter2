@@ -15,6 +15,7 @@
 		270FC00627213E090041E74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270FC00427213E090041E74F /* LaunchScreen.storyboard */; };
 		270FC01027214BBA0041E74F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FC00F27214BBA0041E74F /* Question.swift */; };
 		270FC0122721547B0041E74F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FC0112721547B0041E74F /* QuestionBank.swift */; };
+		27D696FC2725927900D8B5BF /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27D696FB2725927900D8B5BF /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		270FC00727213E090041E74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		270FC00F27214BBA0041E74F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		270FC0112721547B0041E74F /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		27D696FB2725927900D8B5BF /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				270FBFF927213E080041E74F /* AppDelegate.swift */,
 				270FBFFB27213E080041E74F /* SceneDelegate.swift */,
+				27D696FB2725927900D8B5BF /* clap.wav */,
 				270FBFFD27213E080041E74F /* ViewController.swift */,
 				270FC00F27214BBA0041E74F /* Question.swift */,
 				270FC0112721547B0041E74F /* QuestionBank.swift */,
@@ -130,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D696FC2725927900D8B5BF /* clap.wav in Resources */,
 				270FC00627213E090041E74F /* LaunchScreen.storyboard in Resources */,
 				270FC00327213E090041E74F /* Assets.xcassets in Resources */,
 				270FC00127213E080041E74F /* Main.storyboard in Resources */,
