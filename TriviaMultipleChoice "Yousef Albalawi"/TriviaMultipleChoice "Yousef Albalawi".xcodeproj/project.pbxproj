@@ -29,7 +29,7 @@
 		CA1DB37D2724707A00088C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA1DB38327248EE700088C47 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 		CA1DB38527248F1500088C47 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		CA1DB3892724AC3C00088C47 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clap.wav; path = ../../../../../clap.wav; sourceTree = "<group>"; };
+		CA1DB3892724AC3C00088C47 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
