@@ -42,23 +42,19 @@ import UIKit
         questionLable.layer.cornerRadius = 50
         questionLable.layer.masksToBounds = true
         
-        firstChoiceButtom.layer.cornerRadius = 15
+        firstChoiceButtom.layer.cornerRadius = 50
         firstChoiceButtom.layer.masksToBounds = true
         firstChoiceButtom.layer.borderWidth = 3
         firstChoiceButtom.layer.borderColor = UIColor.white.cgColor
-        secandChoiceBottom.layer.cornerRadius = 15
+        secandChoiceBottom.layer.cornerRadius = 50
         secandChoiceBottom.layer.masksToBounds = true
-        secandChoiceBottom.layer.borderWidth =  3
-        secandChoiceBottom.layer.borderColor =
-          UIColor.white.cgColor
-        
-        
-        
+        secandChoiceBottom.layer.borderWidth = 3
+        secandChoiceBottom.layer.borderColor = UIColor.white.cgColor
         thirdChoiceButton.layer.cornerRadius = 50
         thirdChoiceButton.layer.masksToBounds = true
         thirdChoiceButton.layer.borderWidth = 3
-        thirdChoiceButton.layer.borderColor = UIColor.white.cgColor
-        
+        thirdChoiceButton.layer.borderColor =
+          UIColor.white.cgColor
         fourthChoiceButton.layer.cornerRadius = 50
         fourthChoiceButton.layer.masksToBounds = true
         fourthChoiceButton.layer.borderWidth = 3
@@ -90,17 +86,16 @@ import UIKit
         }
         else {
           showAlertView()
-          
-          
         }
       }
+      
       
       @objc func updateUI(){
         questionLable.text = quizManager.checkQuestion()
         progressBottom.progress = quizManager.checkProgress()
-        valueScoreLable.text = String("\(quizManager.checkScore())")
+        valueScoreLable.text = "\(quizManager.checkScore())"
         
-      
+        
         firstChoiceButtom.backgroundColor = UIColor.clear
         secandChoiceBottom.backgroundColor = UIColor.clear
         thirdChoiceButton.backgroundColor = UIColor.clear
@@ -111,8 +106,6 @@ import UIKit
         secandChoiceBottom.setTitle(quizManager.checkChoices()[1], for: .normal)
         thirdChoiceButton.setTitle(quizManager.checkChoices()[2], for: .normal)
         fourthChoiceButton.setTitle(quizManager.checkChoices()[3], for: .normal)
-        
-        
       }
       
       
@@ -120,13 +113,14 @@ import UIKit
         let alert = UIAlertController(title: "End game 🥳", message: "play agine?", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Yes", style: .cancel, handler: {action in
           print("Yes clicked")
+          self.start()
         }))
         alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
         playSound()
       }
-      
-      
+
+//
       func playSound() {
         guard let url = Bundle.main.url(forResource: "clapping", withExtension: "mp3") else { return }
         
@@ -148,4 +142,8 @@ import UIKit
           print(error.localizedDescription)
         }
       }
+    func start() {
+      quizManager.start()
+      updateUI()
+    }
     }
